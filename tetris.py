@@ -14,6 +14,10 @@ shape = Shapes()
 next_shape = Shapes()
 color_effect = ColorEffect(length=15)
 
+class Relationship():
+
+    def Button(self):
+        pass
 
 class Button:
     def __init__(self, key, function, draw_on):
@@ -81,7 +85,7 @@ class Button:
             self.function()
 
 
-class Spinner(Button):#
+class Spinner(Relationship):#
 
     def __init__(self, key, function, draw_on):
 
